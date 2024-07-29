@@ -3,7 +3,7 @@ import json
 import os
 
 # 从环境变量中获取个人访问令牌
-access_token = os.getenv('ACCESS_TOKEN')  # 修改为 ACCESS_TOKEN
+access_token = os.getenv('ACCESS_TOKEN')
 
 def get_releases(owner, repo, access_token):
     url = f"https://api.github.com/repos/{owner}/{repo}/releases"
@@ -37,9 +37,18 @@ def save_releases(releases, filename):
         json.dump(releases, file, indent=4)
     print(f"Saved data to {filepath}")  # Debug: 显示保存文件的路径
 
-# 只针对 minio 项目进行操作
-owner = "minio"
-repo = "minio"
-releases = get_releases(owner, repo, access_token)
-filename = f"{repo}_releases.json"
-save_releases(releases, filename)
+# 配置要获取信息的仓库列表
+repositories = [
+    ("kekingcn", "kkFileView"),
+    ("elastic", "elasticsearch"),
+    ("alibaba", "nacos"),
+    ("redis", "redis"),
+    ("rabbitmq", "rabbitmq-server"),
+    ("minio", "minio")
+]
+
+# 遍历列表，获取每个仓库的发布信息并保存
+for owner, repo in repositories:
+    releases = get_releases(owner, repo, access_token)
+    filename = f"{repo}_releases.json"
+    save_releases(releases, filename)
