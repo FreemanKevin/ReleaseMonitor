@@ -3,7 +3,7 @@ import json
 import os
 
 # 从环境变量中获取个人访问令牌
-access_token = os.getenv('getRepo')  
+access_token = os.getenv('ACCESS_TOKEN')  # 修改为 ACCESS_TOKEN
 
 def get_releases(owner, repo, access_token):
     url = f"https://api.github.com/repos/{owner}/{repo}/releases"
