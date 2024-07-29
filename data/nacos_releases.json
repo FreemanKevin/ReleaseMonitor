@@ -1,1 +1,122 @@
-[]
+[
+    {
+        "tag_name": "2.4.0.1",
+        "published_at": "2024-07-22T07:28:13Z"
+    },
+    {
+        "tag_name": "2.4.0",
+        "published_at": "2024-07-19T06:34:32Z"
+    },
+    {
+        "tag_name": "2.3.3-client-only",
+        "published_at": "2024-06-25T02:30:58Z"
+    },
+    {
+        "tag_name": "2.4.0-BETA",
+        "published_at": "2024-06-06T03:21:54Z"
+    },
+    {
+        "tag_name": "2.3.2",
+        "published_at": "2024-04-03T06:29:50Z"
+    },
+    {
+        "tag_name": "2.3.1",
+        "published_at": "2024-03-04T06:20:13Z"
+    },
+    {
+        "tag_name": "1.4.7",
+        "published_at": "2024-01-15T02:24:45Z"
+    },
+    {
+        "tag_name": "2.3.0",
+        "published_at": "2023-11-30T03:49:06Z"
+    },
+    {
+        "tag_name": "2.3.0-BETA",
+        "published_at": "2023-10-19T03:45:38Z"
+    },
+    {
+        "tag_name": "2.2.4",
+        "published_at": "2023-06-20T08:07:51Z"
+    },
+    {
+        "tag_name": "2.2.3",
+        "published_at": "2023-05-25T07:40:58Z"
+    },
+    {
+        "tag_name": "1.4.6",
+        "published_at": "2023-05-25T08:09:42Z"
+    },
+    {
+        "tag_name": "2.2.2",
+        "published_at": "2023-04-11T08:30:50Z"
+    },
+    {
+        "tag_name": "2.2.1",
+        "published_at": "2023-03-17T10:55:46Z"
+    },
+    {
+        "tag_name": "1.4.5",
+        "published_at": "2023-03-17T10:28:09Z"
+    },
+    {
+        "tag_name": "2.2.0.1",
+        "published_at": "2023-03-02T01:36:02Z"
+    },
+    {
+        "tag_name": "2.2.1-RC",
+        "published_at": "2022-12-22T02:58:29Z"
+    },
+    {
+        "tag_name": "2.2.0",
+        "published_at": "2022-12-14T06:33:23Z"
+    },
+    {
+        "tag_name": "2.2.0-BETA",
+        "published_at": "2022-10-28T09:19:11Z"
+    },
+    {
+        "tag_name": "2.1.2",
+        "published_at": "2022-10-17T06:55:12Z"
+    },
+    {
+        "tag_name": "2.1.1",
+        "published_at": "2022-08-08T10:14:36Z"
+    },
+    {
+        "tag_name": "1.4.4",
+        "published_at": "2022-08-08T09:40:18Z"
+    },
+    {
+        "tag_name": "2.1.0",
+        "published_at": "2022-04-29T02:24:06Z"
+    },
+    {
+        "tag_name": "2.1.0-BETA",
+        "published_at": "2022-04-01T07:58:57Z"
+    },
+    {
+        "tag_name": "1.4.3",
+        "published_at": "2022-01-27T03:20:55Z"
+    },
+    {
+        "tag_name": "2.0.4",
+        "published_at": "2022-01-18T03:17:12Z"
+    },
+    {
+        "tag_name": "2.0.3",
+        "published_at": "2021-07-28T11:37:03Z"
+    },
+    {
+        "tag_name": "2.0.2",
+        "published_at": "2021-06-11T07:50:53Z"
+    },
+    {
+        "tag_name": "2.0.1",
+        "published_at": "2021-04-29T09:03:55Z"
+    },
+    {
+        "tag_name": "1.4.2",
+        "published_at": "2021-04-29T08:04:36Z"
+    }
+]
