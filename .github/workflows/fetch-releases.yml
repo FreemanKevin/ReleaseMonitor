@@ -2,9 +2,8 @@ name: Fetch and Record Releases
 
 on:
   schedule:
-    # 每天运行一次，你可以根据需要调整频率
-    - cron: '0 0 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *'  # 每天运行一次
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   fetch_releases:
@@ -25,7 +24,11 @@ jobs:
           pip install requests
 
       - name: Fetch Releases
-        run: python fetch_releases.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        run: |
+          export ACCESS_TOKEN
+          python fetch_releases.py
 
       - name: Commit and Push
         run: |

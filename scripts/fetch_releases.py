@@ -1,5 +1,9 @@
 import requests
 import json
+import os
+
+# 从环境变量中获取个人访问令牌
+access_token = os.getenv('getRepo')
 
 def get_releases(owner, repo, access_token):
     url = f"https://api.github.com/repos/{owner}/{repo}/releases"
@@ -32,9 +36,6 @@ projects = [
     {"owner": "elastic", "repo": "elasticsearch"},
     {"owner": "minio", "repo": "minio"}
 ]
-
-# 假设你的个人访问令牌存储在一个变量中
-access_token = 'getRepo'
 
 for project in projects:
     owner = project['owner']
