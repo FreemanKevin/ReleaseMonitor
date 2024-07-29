@@ -28,6 +28,25 @@ def get_releases(owner, repo, access_token):
     
     return releases
 
+# def get_tags(owner, repo, access_token):
+#     url = f"https://api.github.com/repos/{owner}/{repo}/tags"
+#     headers = {'Authorization': f'token {access_token}'}
+#     print(f"Fetching tags from {url}")  # Debug: 显示请求的 URL
+#     response = requests.get(url, headers=headers)
+    
+#     if response.ok:
+#         tags_data = response.json()
+#     else:
+#         print(f"Failed to fetch data: {response.status_code} {response.text}")  # Debug: 显示错误信息
+#         tags_data = []
+    
+#     # 提取每个 tag 的名称
+#     tags = []
+#     for tag in tags_data:
+#         tags.append(tag['name'])
+    
+#     return tags
+
 def get_tags(owner, repo, access_token):
     url = f"https://api.github.com/repos/{owner}/{repo}/tags"
     headers = {'Authorization': f'token {access_token}'}
@@ -40,10 +59,22 @@ def get_tags(owner, repo, access_token):
         print(f"Failed to fetch data: {response.status_code} {response.text}")  # Debug: 显示错误信息
         tags_data = []
     
-    # 提取每个 tag 的名称
+    # 提取每个 tag 的名称和发布时间
     tags = []
     for tag in tags_data:
-        tags.append(tag['name'])
+        commit_url = tag['commit']['url']
+        commit_response = requests.get(commit_url, headers=headers)
+        if commit_response.ok:
+            commit_data = commit_response.json()
+            commit_date = commit_data['commit']['committer']['date']
+        else:
+            commit_date = "Unknown"
+        
+        tag_info = {
+            'name': tag['name'],
+            'date': commit_date
+        }
+        tags.append(tag_info)
     
     return tags
 
