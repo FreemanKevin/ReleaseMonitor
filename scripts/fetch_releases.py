@@ -23,7 +23,11 @@ def get_releases(owner, repo, access_token):
     return releases
 
 def save_releases(releases, filename):
-    with open(filename, 'w') as file:
+    directory = "data"
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+    filepath = os.path.join(directory, filename)
+    with open(filepath, 'w') as file:
         json.dump(releases, file, indent=4)
 
 # 配置需要追踪的项目
@@ -41,4 +45,5 @@ for project in projects:
     owner = project['owner']
     repo = project['repo']
     releases = get_releases(owner, repo, access_token)
-    save_releases(releases, f"{repo}_releases.json")
+    filename = f"{repo}_releases.json"
+    save_releases(releases, filename)
