@@ -1,5 +1,9 @@
 [
     {
+        "tag_name": "RELEASE.2024-07-29T22-14-52Z",
+        "published_at": "2024-07-30T00:24:56Z"
+    },
+    {
         "tag_name": "RELEASE.2024-07-26T20-48-21Z",
         "published_at": "2024-07-27T10:54:05Z"
     },
@@ -114,9 +118,5 @@
     {
         "tag_name": "RELEASE.2024-03-05T04-48-44Z",
         "published_at": "2024-03-05T06:43:59Z"
-    },
-    {
-        "tag_name": "RELEASE.2024-03-03T17-50-39Z",
-        "published_at": "2024-03-03T18:46:02Z"
     }
 ]
