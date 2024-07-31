@@ -1,5 +1,5 @@
 ---
-title: "kkFileView Release Log"
+title: "kkFileView Release"
 date: 2024-07-30
 ---
 {{< releases_table "kkFileView" >}}
