@@ -1,0 +1,94 @@
+title = "ReleaseMonitor"
+baseURL = 'https://freemankevin.github.io/ReleaseMonitor/'
+
+languageCode = 'en-us'
+
+defaultContentLanguage = "en-gb"
+
+
+enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"]
+
+theme = "hugo-blog-awesome"
+
+[services]
+  [services.googleAnalytics]
+    id = ''
+  [services.disqus]
+    shortname = ''
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2
+		endLevel = 4
+		ordered = false
+
+############################## English language ################################
+[Languages.en-gb]
+  languageName = "English"
+  languageCode = "en-gb"
+  contentDir = "content/en"
+  weight = 1
+
+  [Languages.en-gb.menu]
+  [[Languages.en-gb.menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[Languages.en-gb.menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[Languages.en-gb.menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[Languages.en-gb.params]
+  sitename = "ReleaseMonitor"
+  defaultColor = "dark" # set color mode: dark, light, auto
+  description = "Minimal Hugo blog theme with light and dark mode support"
+  mainSections = ['posts']
+  toc = true
+  tocOpen = false
+  goToTop = true
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+  dateFormat = ""
+  rssFeedDescription = "summary"
+
+[Languages.en-gb.params.author]
+  avatar = "avatar.jpg"
+  intro = "ReleaseMonitor"
+  name = "FreemanKevin"
+  description = """
+  A personal blog site that automatically tracks version updates, version numbers, and release dates of popular middleware in microservice architectures.
+  """
+
+[Languages.en-gb.params.webmanifest]
+  name = "sitename"
+  short_name = "sitename"
+  start_url = "/" 
+  theme_color = "#434648"
+  background_color = "#fff"
+  display = "standalone"
+###################################################################
+[params.browserconfig]
+  TileColor = "#2d89ef"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/FreemanKevin/ReleaseMonitor"
+
+[[params.socialIcons]]
+name = "Rss"
+url = "/index.xml"
+
+[timeouts]
+render = "180s"
