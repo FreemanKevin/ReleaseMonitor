@@ -1,0 +1,20 @@
+<!-- layouts/shortcodes/project_releases_table.html -->
+<div class="release-table-container">
+    <table>
+        <thead>
+            <tr>
+                <th>版本号</th>
+                <th>发布日期</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{ $dataKey := printf "%s_tags" (index .Params 0) }}
+            {{ range index .Site.Data $dataKey }}
+            <tr>
+                <td>{{ .name }}</td>
+                <td class="datetime">{{ .date }}</td>
+            </tr>
+            {{ end }}
+        </tbody>
+    </table>
+</div>
