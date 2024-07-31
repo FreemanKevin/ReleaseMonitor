@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main  # Or your default branch
+  schedule:
+    - cron: '0 1 * * *'  # Runs at 01:00 AM UTC every day
 
 jobs:
   build-and-deploy:
