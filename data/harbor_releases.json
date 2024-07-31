@@ -1,0 +1,122 @@
+[
+    {
+        "tag_name": "v2.10.3",
+        "published_at": "2024-07-04T05:58:13Z"
+    },
+    {
+        "tag_name": "v2.10.3-rc1",
+        "published_at": "2024-07-03T07:31:41Z"
+    },
+    {
+        "tag_name": "v2.9.5",
+        "published_at": "2024-07-01T07:05:51Z"
+    },
+    {
+        "tag_name": "v2.9.5-rc1",
+        "published_at": "2024-06-28T09:12:27Z"
+    },
+    {
+        "tag_name": "v2.11.0",
+        "published_at": "2024-06-06T09:35:27Z"
+    },
+    {
+        "tag_name": "v2.11.0-rc3",
+        "published_at": "2024-06-06T03:36:22Z"
+    },
+    {
+        "tag_name": "v2.11.0-rc2",
+        "published_at": "2024-06-04T05:17:05Z"
+    },
+    {
+        "tag_name": "v2.11.0-rc1",
+        "published_at": "2024-05-17T04:59:16Z"
+    },
+    {
+        "tag_name": "v2.9.4",
+        "published_at": "2024-04-18T03:24:27Z"
+    },
+    {
+        "tag_name": "v2.9.4-rc1",
+        "published_at": "2024-04-16T05:09:43Z"
+    },
+    {
+        "tag_name": "v2.8.6",
+        "published_at": "2024-04-22T06:30:50Z"
+    },
+    {
+        "tag_name": "v2.8.6-rc1",
+        "published_at": "2024-04-18T11:42:02Z"
+    },
+    {
+        "tag_name": "v2.10.2",
+        "published_at": "2024-04-10T10:41:53Z"
+    },
+    {
+        "tag_name": "v2.10.2-rc1",
+        "published_at": "2024-04-08T10:11:47Z"
+    },
+    {
+        "tag_name": "v2.10.1",
+        "published_at": "2024-03-15T06:49:31Z"
+    },
+    {
+        "tag_name": "v2.10.1-rc1",
+        "published_at": "2024-03-14T07:55:12Z"
+    },
+    {
+        "tag_name": "v2.9.3",
+        "published_at": "2024-03-08T05:38:28Z"
+    },
+    {
+        "tag_name": "v2.9.3-rc2",
+        "published_at": "2024-03-06T05:35:13Z"
+    },
+    {
+        "tag_name": "v2.8.5",
+        "published_at": "2024-03-07T06:02:57Z"
+    },
+    {
+        "tag_name": "v2.8.5-rc1",
+        "published_at": "2024-03-05T07:42:29Z"
+    },
+    {
+        "tag_name": "v2.9.3-rc1",
+        "published_at": "2024-02-28T12:23:39Z"
+    },
+    {
+        "tag_name": "v2.9.2",
+        "published_at": "2024-01-29T03:18:01Z"
+    },
+    {
+        "tag_name": "v2.9.2-rc1",
+        "published_at": "2024-01-25T10:32:57Z"
+    },
+    {
+        "tag_name": "v2.10.0",
+        "published_at": "2023-12-19T07:47:12Z"
+    },
+    {
+        "tag_name": "v2.10.0-rc2",
+        "published_at": "2023-12-15T10:43:48Z"
+    },
+    {
+        "tag_name": "v2.10.0-rc1",
+        "published_at": "2023-12-11T10:26:17Z"
+    },
+    {
+        "tag_name": "v2.7.4",
+        "published_at": "2023-11-30T03:15:43Z"
+    },
+    {
+        "tag_name": "v2.7.4-rc1",
+        "published_at": "2023-11-29T07:34:01Z"
+    },
+    {
+        "tag_name": "v2.9.1",
+        "published_at": "2023-11-02T01:22:36Z"
+    },
+    {
+        "tag_name": "v2.9.1-rc1",
+        "published_at": "2023-11-01T10:19:44Z"
+    }
+]
