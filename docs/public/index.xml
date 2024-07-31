@@ -1,46 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Home on ReleaseMonitor</title>
-    <link>http://localhost:1313/ReleaseMonitor/</link>
-    <description>Recent content in Home on ReleaseMonitor</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-gb</language>
-    <lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/ReleaseMonitor/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>MinIO Release Log</title>
-      <link>http://localhost:1313/ReleaseMonitor/posts/minio-release-log/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/ReleaseMonitor/posts/minio-release-log/</guid>
-      
-      <description>版本号发布日期RELEASE.2024-07-29T22-14-52Z2024-07-30T00:24:56ZRELEASE.2024-07-26T20-48-21Z2024-07-27T10:54:05ZRELEASE.2024-07-16T23-46-41Z2024-07-17T21:38:23ZRELEASE.2024-07-15T19-02-30Z2024-07-15T22:24:23ZRELEASE.2024-07-13T01-46-15Z2024-07-13T07:38:29ZRELEASE.2024-07-10T18-41-49Z2024-07-10T19:54:10ZRELEASE.2024-07-04T14-25-45Z2024-07-04T15:28:09ZRELEASE.2024-06-29T01-20-47Z2024-06-29T18:56:05ZRELEASE.2024-06-28T09-06-49Z2024-06-28T14:13:02ZRELEASE.2024-06-26T01-06-18Z2024-06-26T08:13:00ZRELEASE.2024-06-22T05-26-45Z2024-06-22T06:34:26ZRELEASE.2024-06-13T22-53-53Z2024-06-14T06:09:31ZRELEASE.2024-06-11T03-13-30Z2024-06-11T06:41:11ZRELEASE.2024-06-06T09-36-42Z2024-06-06T13:45:23ZRELEASE.2024-06-04T19-20-08Z2024-06-04T23:00:27ZRELEASE.2024-05-28T17-19-04Z2024-05-28T20:27:04ZRELEASE.2024-05-27T19-17-46Z2024-05-28T00:10:59ZRELEASE.2024-05-10T01-41-38Z2024-05-10T02:10:07ZRELEASE.2024-05-07T06-41-25Z2024-05-07T19:37:00ZRELEASE.2024-05-01T01-11-10Z2024-05-01T03:18:15ZRELEASE.2024-04-28T17-53-50Z2024-04-29T17:54:37ZRELEASE.2024-04-18T19-09-19Z2024-04-18T21:23:39ZRELEASE.2024-04-06T05-26-02Z2024-04-06T07:12:03ZRELEASE.2024-03-30T09-41-56Z2024-03-30T18:57:16ZRELEASE.2024-03-26T22-10-45Z2024-03-26T23:37:06ZRELEASE.2024-03-21T23-13-43Z2024-03-22T20:48:40ZRELEASE.2024-03-15T01-07-19Z2024-03-15T02:52:11ZRELEASE.2024-03-10T02-53-48Z2024-03-10T09:15:51ZRELEASE.2024-03-07T00-43-48Z2024-03-07T07:04:11ZRELEASE.2024-03-05T04-48-44Z2024-03-05T06:43:59Z</description>
-      
-    </item>
-    
-    <item>
-      <title>Nacos Release Log</title>
-      <link>http://localhost:1313/ReleaseMonitor/posts/nacos-release-log/</link>
-      <pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/ReleaseMonitor/posts/nacos-release-log/</guid>
-      
-      <description>版本号发布日期2.4.0.12024-07-22T07:28:13Z2.4.02024-07-19T06:34:32Z2.3.3-client-only2024-06-25T02:30:58Z2.4.0-BETA2024-06-06T03:21:54Z2.3.22024-04-03T06:29:50Z2.3.12024-03-04T06:20:13Z1.4.72024-01-15T02:24:45Z2.3.02023-11-30T03:49:06Z2.3.0-BETA2023-10-19T03:45:38Z2.2.42023-06-20T08:07:51Z2.2.32023-05-25T07:40:58Z1.4.62023-05-25T08:09:42Z2.2.22023-04-11T08:30:50Z2.2.12023-03-17T10:55:46Z1.4.52023-03-17T10:28:09Z2.2.0.12023-03-02T01:36:02Z2.2.1-RC2022-12-22T02:58:29Z2.2.02022-12-14T06:33:23Z2.2.0-BETA2022-10-28T09:19:11Z2.1.22022-10-17T06:55:12Z2.1.12022-08-08T10:14:36Z1.4.42022-08-08T09:40:18Z2.1.02022-04-29T02:24:06Z2.1.0-BETA2022-04-01T07:58:57Z1.4.32022-01-27T03:20:55Z2.0.42022-01-18T03:17:12Z2.0.32021-07-28T11:37:03Z2.0.22021-06-11T07:50:53Z2.0.12021-04-29T09:03:55Z1.4.22021-04-29T08:04:36Z</description>
-      
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>http://localhost:1313/ReleaseMonitor/pages/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/ReleaseMonitor/pages/about/</guid>
-      
-      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
-Hugo makes use of a variety of open source projects including:
-https://github.com/yuin/goldmark https://github.</description>
-      
-    </item>
-    
-  </channel>
-</rss>

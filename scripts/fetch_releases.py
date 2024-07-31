@@ -60,7 +60,7 @@ def get_tags(owner, repo, access_token):
     return tags
 
 def save_data(data, filename):
-    directory = "docs/data"
+    directory = "data"
     if not os.path.exists(directory):
         os.makedirs(directory)
     filepath = os.path.join(directory, filename)

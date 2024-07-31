@@ -1,0 +1,68 @@
+/* static/css/table-style.css */
+/* 基本字体和背景样式 */
+body {
+    font-family: 'Microsoft YaHei', sans-serif; /* 更改为微软雅黑字体提升质感 */
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+/* 表格全局样式 */
+table {
+    width: 100%;
+    border-collapse: collapse; /* 使用collapse确保边框连续 */
+    margin: 20px 0;
+}
+
+/* 表头样式 */
+th {
+    padding: 20px 30px;
+    text-align: left;
+    font-family: 'Microsoft YaHei', sans-serif;
+    font-size: 18px; /* 增大字体大小 */
+    font-weight: bold; /* 字体加粗 */
+    color: white;
+    background-color: #28a745; /* 绿色背景 */
+    border-right: 2px solid white; /* 增加白色右边框以分隔列 */
+}
+
+/* 最后一个表头元素的右边框移除 */
+th:last-child {
+    border-right: none;
+}
+
+/* 单元格样式 */
+td {
+    padding: 20px 30px;
+    text-align: left;
+    font-family: 'Microsoft YaHei', sans-serif;
+    font-size: 16px;
+    color: #333;
+    border-right: 1px solid #ddd; /* 增加单元格间分隔线 */
+    border-bottom: 1px solid #ddd; /* 保留水平分割线 */
+}
+
+/* 最后一个单元格元素的右边框移除 */
+td:last-child {
+    border-right: none;
+}
+
+/* 特殊格式化版本号和时间戳 */
+td.version, td.timestamp {
+    white-space: nowrap; /* 不换行 */
+    font-weight: bold;
+    color: white;
+    background-color: #28a745; /* 绿色背景 */
+}
+
+/* 表行悬浮效果 */
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* 响应式设计：小屏设备样式调整 */
+@media screen and (max-width: 600px) {
+    th, td {
+        padding: 10px 15px;
+        min-width: 100px;
+    }
+}
