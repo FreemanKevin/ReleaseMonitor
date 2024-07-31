@@ -76,7 +76,10 @@ repositories = [
     ("redis", "redis"),
     ("rabbitmq", "rabbitmq-server"),
     ("minio", "minio"),
-    ("nginx", "nginx")  # 添加 nginx
+    ("nginx", "nginx"),
+    ("docker", "compose"),
+    ("kubernetes", "kubernetes"),
+    ("goharbor", "harbor"),
 ]
 
 # 遍历列表，获取每个仓库的发布信息或标签并保存
