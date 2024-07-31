@@ -68,10 +68,8 @@ theme = "hugo-blog-awesome"
   avatar = "avatar.jpg"
   intro = "ReleaseMonitor"
   name = "FreemanKevin"
-  description = """
-  A personal blog site that automatically tracks version updates, version numbers, and release dates of popular middleware in microservice architectures.
-  """
-
+  description = 'A personal blog that automatically tracks open-source software version updates. 🚀'
+  
 [Languages.en-gb.params.webmanifest]
   name = "sitename"
   short_name = "sitename"
