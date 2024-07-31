@@ -1,0 +1,38 @@
+/* 基本颜色变量 */
+:root {
+    --background-color: #fff; /* 白色背景 */
+    --text-color: #000; /* 黑色文字 */
+    --border-color: #ddd; /* 浅灰色边框 */
+    --th-background-color: #f2f2f2; /* 浅灰色表头背景 */
+}
+
+/* 暗模式样式 */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #222; /* 暗模式背景色 */
+        --text-color: #ccc; /* 暗模式文字颜色 */
+        --border-color: #444; /* 暗模式边框颜色 */
+        --th-background-color: #333; /* 暗模式表头背景色 */
+    }
+}
+
+/* 表格基础样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Microsoft YaHei', Arial, sans-serif; /* 使用微软雅黑字体 */
+    background-color: var(--background-color); /* 应用背景色 */
+    color: var(--text-color); /* 应用文字颜色 */
+
+    th, td {
+        border: 1px solid var(--border-color);
+        padding: 8px;
+        text-align: left;
+        background-color: inherit; /* 继承背景色 */
+    }
+
+    th {
+        background-color: var(--th-background-color);
+    }
+}

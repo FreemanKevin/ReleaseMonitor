@@ -43,9 +43,10 @@
         }
     };
 
-    // init theme ASAP, then do the rest.
+    // Initialize theme ASAP, then do the rest.
     initTheme(getThemeState());
-    requestAnimationFrame(() => body.classList.remove("notransition"))
+    requestAnimationFrame(() => body.classList.remove("notransition"));
+
     const toggleTheme = () => {
         const state = getThemeState();
         if (state === THEMES.DARK) {
@@ -60,16 +61,34 @@
     window.addEventListener("DOMContentLoaded", () => {
         // Theme switch
         const lamp = document.getElementById("mode");
-
         lamp.addEventListener("click", () => toggleTheme());
 
         // Blur the content when the menu is open
         const cbox = document.getElementById("menu-trigger");
-
         cbox.addEventListener("change", function () {
             const area = document.querySelector(".wrapper");
             if (this.checked) return area.classList.add("blurry");
             area.classList.remove("blurry");
+        });
+
+        // DateTime formatting
+        const dateElements = document.querySelectorAll('.datetime');
+        dateElements.forEach(function(element) {
+            const utcTimeStr = element.textContent.trim();
+            const date = new Date(utcTimeStr);
+            if (!isNaN(date.getTime())) {
+                element.textContent = date.toLocaleString('en-GB', {
+                    year: 'numeric',
+                    month: '2-digit',
+                    day: '2-digit',
+                    hour: '2-digit',
+                    minute: '2-digit',
+                    second: '2-digit',
+                    hour12: true
+                }).replace('AM', ' AM').replace('PM', ' PM');
+            } else {
+                console.error('Invalid date:', utcTimeStr);
+            }
         });
     });
 })();
