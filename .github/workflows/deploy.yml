@@ -20,6 +20,9 @@ jobs:
     - name: Build
       run: hugo --minify
 
+    - name: Copy Data
+      run: cp -r ./data ./public/data  # copy data to public
+
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
