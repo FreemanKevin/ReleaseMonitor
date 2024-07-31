@@ -78,6 +78,7 @@ repositories = [
     ("minio", "minio"),
     ("nginx", "nginx"),
     ("docker", "compose"),
+    ("moby", "moby"),
     ("kubernetes", "kubernetes"),
     ("goharbor", "harbor"),
 ]

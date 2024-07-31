@@ -19,6 +19,7 @@ The following software components are currently supported by ReleaseMonitor:
 - RabbitMQ Server
 - Redis
 - Harbor
+- Docker
 - Docker Compose
 - Kubernetes (K8s)
 
