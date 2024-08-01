@@ -1,5 +1,9 @@
 [
     {
+        "tag_name": "v1.31.0-rc.0",
+        "published_at": "2024-07-31T10:16:19Z"
+    },
+    {
         "tag_name": "v1.27.16",
         "published_at": "2024-07-17T07:48:27Z"
     },
@@ -114,9 +118,5 @@
     {
         "tag_name": "v1.30.0-alpha.3",
         "published_at": "2024-02-28T05:37:33Z"
-    },
-    {
-        "tag_name": "v1.29.2",
-        "published_at": "2024-02-14T18:01:57Z"
     }
 ]

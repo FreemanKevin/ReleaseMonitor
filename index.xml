@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on ReleaseMonitor</title><link>https://freemankevin.github.io/ReleaseMonitor/</link><description>Recent content in Home on ReleaseMonitor</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><lastBuildDate>Tue, 30 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://freemankevin.github.io/ReleaseMonitor/index.xml" rel="self" type="application/rss+xml"/><item><title>Docker Compose Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/docker-compose-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/docker-compose-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 v2.29.1
 2024-07-23T14:39:07Z
 v2.29.0
@@ -61,8 +61,8 @@ v2.20.1
 2023-07-18T21:02:38Z
 v2.20.0
 2023-07-11T13:15:50Z</description></item><item><title>Docker Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/docker-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/docker-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 v25.0.6
 2024-07-25T19:43:11Z
 v27.1.1
@@ -123,8 +123,8 @@ v25.0.2
 2024-02-01T02:46:02Z
 v24.0.9
 2024-02-01T13:58:46Z</description></item><item><title>Elastic Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/elastic-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/elastic-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 v7.17.23
 2024-07-30T17:26:59Z
 v8.14.3
@@ -185,8 +185,8 @@ v7.17.14
 2023-10-10T13:07:49Z
 v8.10.2
 2023-09-21T10:49:36Z</description></item><item><title>Harbor Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/harbor-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/harbor-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 v2.10.3
 2024-07-04T05:58:13Z
 v2.10.3-rc1
@@ -247,8 +247,8 @@ v2.9.1
 2023-11-02T01:22:36Z
 v2.9.1-rc1
 2023-11-01T10:19:44Z</description></item><item><title>kkFileView Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/kkfileview-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/kkfileview-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 v4.4.0-beta
 2024-04-15T01:32:02Z
 v4.3.0
@@ -279,8 +279,10 @@ v2.1.2
 2019-07-30T08:46:06Z
 0.0.2
 2018-01-02T05:31:54Z</description></item><item><title>Kubernetes Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/kubernetes-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/kubernetes-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
+v1.31.0-rc.0
+2024-07-31T10:16:19Z
 v1.27.16
 2024-07-17T07:48:27Z
 v1.31.0-beta.0
@@ -338,11 +340,11 @@ v1.26.15
 v1.30.0-beta.0
 2024-03-13T05:40:09Z
 v1.30.0-alpha.3
-2024-02-28T05:37:33Z
-v1.29.2
-2024-02-14T18:01:57Z</description></item><item><title>MinIO Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/minio-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/minio-release/</guid><description>
-版本号
-发布日期
+2024-02-28T05:37:33Z</description></item><item><title>MinIO Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/minio-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/minio-release/</guid><description>
+Version ID
+Release Timestamp
+RELEASE.2024-07-31T05-46-26Z
+2024-07-31T09:43:11Z
 RELEASE.2024-07-29T22-14-52Z
 2024-07-30T00:24:56Z
 RELEASE.2024-07-26T20-48-21Z
@@ -400,11 +402,9 @@ RELEASE.2024-03-15T01-07-19Z
 RELEASE.2024-03-10T02-53-48Z
 2024-03-10T09:15:51Z
 RELEASE.2024-03-07T00-43-48Z
-2024-03-07T07:04:11Z
-RELEASE.2024-03-05T04-48-44Z
-2024-03-05T06:43:59Z</description></item><item><title>Nacos Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/nacos-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/nacos-release/</guid><description>
-版本号
-发布日期
+2024-03-07T07:04:11Z</description></item><item><title>Nacos Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/nacos-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/nacos-release/</guid><description>
+Version ID
+Release Timestamp
 2.4.0.1
 2024-07-22T07:28:13Z
 2.4.0
@@ -465,8 +465,8 @@ RELEASE.2024-03-05T04-48-44Z
 2021-04-29T09:03:55Z
 1.4.2
 2021-04-29T08:04:36Z</description></item><item><title>Nginx Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/nginx-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/nginx-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 release-1.27.0
 2024-05-28T13:19:38Z
 release-1.26.1
@@ -527,8 +527,8 @@ release-1.19.9
 2021-03-30T14:47:11Z
 release-1.19.8
 2021-03-09T15:27:50Z</description></item><item><title>Rabbitmq-server Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/rabbitmq-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/rabbitmq-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 v4.0.0-beta.3
 2024-07-24T03:01:58Z
 v3.13.6
@@ -589,8 +589,8 @@ v3.12.6
 2023-09-21T18:31:44Z
 v3.12.5
 2023-09-21T04:18:35Z</description></item><item><title>Redis Release</title><link>https://freemankevin.github.io/ReleaseMonitor/posts/redis-release/</link><pubDate>Tue, 30 Jul 2024 00:00:00 +0000</pubDate><guid>https://freemankevin.github.io/ReleaseMonitor/posts/redis-release/</guid><description>
-版本号
-发布日期
+Version ID
+Release Timestamp
 7.4.0
 2024-07-29T05:37:26Z
 7.4-rc2
