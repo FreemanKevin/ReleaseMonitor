@@ -1,33 +1,70 @@
-name: Deploy Hugo Site
+name: Fetch, Record, and Deploy Hugo Site
 
 on:
   push:
     branches:
-      - main  # Or your default branch
+      - main  # 触发构建和部署
   schedule:
-    - cron: '0 1 * * *'  # Runs at 01:00 AM UTC every day
+    - cron: '0 0 * * *'  # 每天 00:00 UTC 运行获取和记录
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
-  build-and-deploy:
+  fetch_releases:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
 
-    - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
 
-    - name: Build
-      run: hugo --minify
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
 
-    - name: Copy Data
-      run: cp -r ./data ./public/data  # copy data to public
+      - name: Fetch Releases
+        env:
+          ACCESS_TOKEN: ${{ secrets.getRepo }}
+        run: |
+          export ACCESS_TOKEN
+          python scripts/fetch_releases.py
 
-    - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.getRepo }}
-        publish_dir: ./public
-        publish_branch: gh-pages  # Deploy to a branch named gh-pages
+      - name: Commit and Push
+        run: |
+          git config --local user.email "freemankevin2017@gmail.com"
+          git config --local user.name "FreemanKevin"
+          git remote set-url origin https://$GH_TOKEN@github.com/FreemanKevin/ReleaseMonitor.git
+          git add .
+          git commit -m "Update release data" -a || echo "No changes to commit"
+          git push --set-upstream origin HEAD
+        env:
+          GH_TOKEN: ${{ secrets.getRepo }}
+
+  build-and-deploy:
+    needs: fetch_releases  # 确保在构建和部署之前完成数据获取
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3  # 注意: 更新为 v3
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true  # 确保使用扩展版
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Copy Data
+        run: cp -r ./data ./public/data  # 拷贝数据到 public 目录
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.getRepo }}
+          publish_dir: ./public
+          publish_branch: gh-pages  # 部署到 gh-pages 分支
